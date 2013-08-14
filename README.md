@@ -8,3 +8,9 @@ Requirement:
 Connect WebCam
 
 sudo apt-get install uvccapture
+
+
+
+TODO:
+-----------
+change filename generation

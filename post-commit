@@ -1,2 +1,3 @@
 #!/bin/sh
-pee post-commits/*
+find post-commits -type f | while read file; do source ${file}; done
+

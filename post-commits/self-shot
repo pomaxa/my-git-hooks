@@ -1,8 +1,7 @@
 #!/bin/bash
 
 FILENAME=`git log -1 HEAD --pretty=oneline`
-
+FILENAME=${FILENAME:1:24}.jpg
 echo ${FILENAME}
 
-uvccapture -o/home/pmx/Pictures/${FILENAME:0:13}.jpg
-
+uvccapture -o~/Pictures/${FILENAME}

@@ -1,7 +1,7 @@
 my-git-hooks
 ============
 
-My pretty git hooks :)
+List of hooks, i've use;
 
 Requirement: 
 -----------

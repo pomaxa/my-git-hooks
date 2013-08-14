@@ -2,6 +2,5 @@
 
 FILENAME=`git log -1 HEAD --pretty=oneline`
 FILENAME=${FILENAME:1:24}.jpg
-echo ${FILENAME}
 
 uvccapture -o~/Pictures/${FILENAME}

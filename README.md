@@ -1,16 +1,16 @@
 my-git-hooks
 ============
 
-List of hooks, i've use;
+Some interesting hooks for git;
+
 
 Requirement: 
 -----------
-Connect WebCam
-
-sudo apt-get install uvccapture
-
+* Connect WebCam
+* sudo apt-get install uvccapture
 
 
 TODO:
 -----------
-change filename generation
+* create some concole and make all paths configurable;
+* add ability to enable disable hooks

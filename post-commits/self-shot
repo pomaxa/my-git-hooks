@@ -1,0 +1,8 @@
+#!/bin/bash
+
+FILENAME=`git log -1 HEAD --pretty=oneline`
+
+echo ${FILENAME}
+
+uvccapture -o/home/pmx/Pictures/${FILENAME:0:13}.jpg
+

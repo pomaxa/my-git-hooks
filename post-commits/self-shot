@@ -3,4 +3,4 @@
 FILENAME=`git log -1 HEAD --pretty=oneline`
 FILENAME=${FILENAME:1:24}.jpg
 
-uvccapture -o~/Pictures/${FILENAME}
+uvccapture -o${HOME}/Pictures/${FILENAME}

@@ -10,6 +10,8 @@ copy this files into :
 And in all new repositories will be enabled.
 To enable screen capture in old repositories, - run "git init";
 
+You can change whe size of images, by adjust -x and -y params in "self-shot" file.
+
 
 Requirement: 
 -----------

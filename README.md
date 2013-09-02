@@ -17,9 +17,10 @@ Requirement:
 -----------
 * Connect WebCam
 * sudo apt-get install uvccapture
-
+* Imagick (it's used to write repo name over each image)
 
 TODO:
 -----------
-* create some concole and make all paths configurable;
+* create some configuration file|installer;
 * add ability to enable disable hooks
+* make imagick optional;
